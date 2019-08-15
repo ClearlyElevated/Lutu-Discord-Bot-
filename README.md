@@ -1,1 +1,1 @@
-### [CLICK HERE TO IVNITE LUTU!](https://bot.discord.io/lutubot)
+### [CLICK HERE TO ADD LUTU! TO YOUR SERVER!](https://bot.discord.io/lutubot)
