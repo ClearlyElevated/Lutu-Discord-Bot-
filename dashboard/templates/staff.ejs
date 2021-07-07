@@ -1,0 +1,44 @@
+<%- include('blocks/header', {bot, user, path}) %>
+
+<style>
+  .jumbotron {
+    -webkit-animation: mover 1.5s infinite alternate;
+    animation: mover 1.5s infinite alternate;
+    -webkit-animation-timing-function: ease-in-out;
+   	animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  	}
+
+  @-webkit-keyframes mover {
+  	0% { 
+  		transform: translateY(0); 
+  	}
+
+  	100% { 
+  	  transform: translateY(-8px); 
+  	}
+  }
+
+  @keyframes mover {
+    0% { 
+  	  transform: translateY(0); 
+  	}
+
+    100% { 
+  	  transform: translateY(-8px); 
+  	}
+  }
+</style>
+
+<div class="jumbotron">
+	<div class="media text-center">
+		<img class="d-flex mr-3 rounded-circle" src="<%= clearlyelevated.image %>" style="width: 64px; height: 64px;" alt="guild.png">
+		<div class="media-body">
+			<h5 class="mt-0">ClearlyElevated#0001
+			</h5>Hello, My Name Is Nolan. I am 21 Years Old & From Washington State!<br><br> <strong>Lead Developer & Owner</strong>
+		</div>
+	</div>
+</div>
+
+<% include ./blocks/footer %>
